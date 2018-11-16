@@ -1,5 +1,5 @@
 export default function shoppingListItemReducer(state = {
-  items: [], 
+  orangePeel: [], 
   users: [ 'initial user' ]
 }, action) {
 
