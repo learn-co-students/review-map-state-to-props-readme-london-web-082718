@@ -18,8 +18,9 @@ class App extends Component {
   }
 
   render() {
-    // debugger;
+    debugger; //  this way we can examine the props of our app component.
     return (
+      
       <div className="App">
           <button onClick={() => this.handleOnClickItems()}>
             Click to change items count
@@ -35,7 +36,7 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   debugger;
-  return { items: state.items }
+  return { orangePeel: ['a', 'b', 'c'] }
 }
 
 export default connect(mapStateToProps)(App);
